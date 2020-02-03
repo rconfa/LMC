@@ -2,9 +2,6 @@
 ;;;; lmc.lisp
 ;;;; A simulator for the Little Man Computer.
 
-;;; 830404 Confalonieri Riccardo
-;;; 829914 Cazzaniga Elisa
-
 
 
 ;;; Defines a struct to save all the lines read from the file. 
