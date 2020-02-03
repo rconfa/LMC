@@ -1,0 +1,33 @@
+//Write a program that takes a single value (greater or equal to zero) as input and outputs which 
+//triangular number it is or 0 if it is not a trinangular number.  
+//For example, if the input is 15, the output will be 5 (15 is the 5th triangular number); 
+//and if the input is 7, the output will be 0 (7 is not a triangular number).
+
+INP 
+STA VALUE 
+LDA ZERO
+STA TRINUM 
+STA N
+LOOP LDA TRINUM
+SUB VALUE
+BRP ENDLOOP
+LDA N
+ADD ONE
+STA N
+ADD TRINUM
+STA TRINUM
+BRA LOOP
+ENDLOOP LDA VALUE
+SUB TRINUM
+BRZ EQUAL
+LDA ZERO
+OUT
+BRA DONE
+EQUAL LDA N
+OUT
+DONE HLT
+VALUE DAT 000
+TRINUM DAT 000
+N DAT 000
+ZERO DAT 000
+ONE DAT 001
