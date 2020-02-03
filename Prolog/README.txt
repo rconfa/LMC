@@ -1,5 +1,5 @@
 Main features:
-The file that I use in the example is: https://elearning.unimib.it/pluginfile.php/569588/mod_resource/content/2/reverse.lmc
+The file that I use in the example is: reverse.lmc
 
 -Reads an assembly file and produces the relative initial memory list.
 	?- lmc_load("reverse.lmc", Mem).
