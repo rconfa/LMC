@@ -2,12 +2,6 @@
 %%%% LMC.pl
 %%%% A simulator for the Little Man Computer.
 
-%%% 829914 Cazzaniga Elisa
-%%% 830404 Confalonieri Riccardo
-
-
-
-
 %%% lmc_run/3
 %%% Loads the file (Filename) and creates the corresponding numerical
 %%% list (Mem). 
